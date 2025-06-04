@@ -1,0 +1,2 @@
+# RestAssuared
+RestAssured Accelarate task
