@@ -9,11 +9,11 @@ import io.restassured.response.Response;
 //created to perform CRUD operation
 public class UserEndPoints {
 
-   public static Response createUser(User payoad){
+   public static Response createUser(User payload){
                Response response= given()
                          .contentType(ContentType.JSON)
                          .accept(ContentType.JSON)
-                         .body(payoad)
+                         .body(payload)
                        .when()
                          .post(Routes.post_url);
 
