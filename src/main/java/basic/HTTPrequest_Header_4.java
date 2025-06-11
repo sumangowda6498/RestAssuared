@@ -11,7 +11,7 @@ public class HTTPrequest_Header_4 {
     void get_responseHeader(){
         RestAssured.useRelaxedHTTPSValidation();//to pass SSL certificate error
 
-        Response response= RestAssured.get("https://reqres.in/api/users?page=2");
+        Response response= RestAssured.get("");
 
         // Reader header is passed with exact header name as argument.
         // In the below line,we will get header named "Content-Type
