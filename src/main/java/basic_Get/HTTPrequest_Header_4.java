@@ -1,10 +1,8 @@
-package basic;
+package basic_Get;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-
-import javax.sound.midi.Soundbank;
 
 public class HTTPrequest_Header_4 {
     @Test

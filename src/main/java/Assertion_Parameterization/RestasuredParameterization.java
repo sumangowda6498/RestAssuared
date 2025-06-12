@@ -11,7 +11,7 @@ public class RestasuredParameterization {
     @Test
     void assertion(){
         RestAssured.useRelaxedHTTPSValidation();// By Subhadip Das
-
+//https://reqres.in/api/users?page=2
         RestAssured.baseURI="https://reqres.in/api/";
 
         RequestSpecification httpsRequest=RestAssured.given();
@@ -32,6 +32,6 @@ public class RestasuredParameterization {
         //Validating text from response
         String responseBody=response.getBody().asString();
         System.out.println("\n STATUS BODY: "+responseBody);
-        Assert.assertEquals(responseBody.contains("suman"),true,"responseBody doesnot contains lindsay");
+        Assert.assertEquals(responseBody.contains("lindsay"),true,"responseBody doesnot contains lindsay");
     }
 }

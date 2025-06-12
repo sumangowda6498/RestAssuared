@@ -1,6 +1,5 @@
-package basic;
+package basic_Get;
 
-import com.google.gson.JsonParser;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.path.json.JsonPath;
